@@ -1,0 +1,109 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+    padding-top: 80px;
+    height: 100vh;
+    align-items: center;
+    gap: 10px;
+    background-color:#0f6efc;
+}
+.content{
+    background-color:white;
+    padding: 20px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    width: 400px;
+}
+.input-area{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px; 
+    padding: 20px;
+    padding-left: 0%;
+    justify-content: flex-start;
+    
+}
+.input{
+    height: 40px;
+    border-radius: 5px;
+}
+.checkbox-area{
+    display: flex;
+    gap: 5px;
+}
+#login{
+    justify-content: center;
+}
+.submit-btn{
+    height: 50px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    background-color: #0b6eff;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+.link{
+    display: flex;
+    /* align-items: center; */
+    justify-content:right;
+    gap: 15px;
+    color:gray;
+    margin-top: 10px;
+}
+.continue-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    
+}
+button{
+    width: 100%;
+}
+.google-btn{
+    background-color: red;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.facebook-btn{
+    background-color:#0c6ffe ;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.twiter-btn{
+    background-color: #0fc9f2;
+    color: black;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;;
+}
+img{
+    height:15px;
+    margin: 0px;
+}
+button{
+    border: 0px;
+}
