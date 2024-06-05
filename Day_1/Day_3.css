@@ -1,0 +1,63 @@
+*{
+    margin-bottom: 20px;
+}
+button{
+    color: blue;
+    padding: 10px;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 50px;
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+}
+/* button:hover{
+    background-color: blue;
+    color: aqua;
+    cursor: pointer;
+} */
+/* .container{
+    border: 3px solid rgb(10, 231, 231);
+    background-color: bisque;
+    margin: 10px;
+    padding: 10px;
+}
+.line::first-letter{
+    font-size: 30px;
+    color: navy;
+}
+.line::first-line{
+    color:blue;
+}
+.line::before{
+    content: "Hello ";
+}
+.line::after{
+    content: " Bye";
+    color: blue;
+} */
+.my-flex{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.cancel{
+    background-color: red;
+    color: aliceblue;
+}
+.cancel:hover{
+    background-color: darkred;
+    color: azure;
+    
+}
+.submit{
+    background-color: aqua;
+}
+.submit:hover{
+    background-color: blue;
+    color: aqua;
+    
+}
