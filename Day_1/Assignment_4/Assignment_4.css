@@ -1,0 +1,170 @@
+*{
+    font-family: roboto;
+}
+.main-container{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    
+}
+.content{
+    border-radius: 5px;
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    
+}
+.top-content{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 15px
+    
+}
+.arrow {
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+.favourate{
+    position: relative;
+    left: 185px;
+    top: 8px;
+}
+.dot{
+    position: relative;
+    left: 190px;
+    top: 8px; 
+}
+#dress-title{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 10px;
+}
+.review{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    position: relative;
+    bottom: 20px;
+}
+.review-text{
+    font-size: 8px;
+    color: gray;
+    
+}
+.main-img {
+    height: 200px;
+    width: 200px;
+    /* margin: 30px; */
+    margin-top: 0px;
+    background-color: #c5c5c7;
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    border-radius: 10px;
+}
+.main-img img{
+    height: 200px;
+    object-fit: fit;
+}
+.size-part span{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+.size-item{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    padding: 5px;
+    padding-left: 0%;
+}
+.size{
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: gray;
+}
+.color-part span{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    
+}
+.color-item{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin-top: 5px;
+}
+.color-item div{
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+.color1{
+    
+    background-color: #e9af97;
+}
+.color2{
+    
+    background-color: #a3bcea;
+}
+.color3{
+   
+    background-color: #d6b0e9;
+}
+.color4{
+    
+    background-color: #eba3ae;
+}
+.color5{
+    
+    background-color: #89bbc8;
+}
+.color6{
+    
+    background-color: #9edac0;
+}
+.price{
+    font-weight: bold;
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.price button{
+    font-size: 12px;
+    position: relative;
+    left: 85px;
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
