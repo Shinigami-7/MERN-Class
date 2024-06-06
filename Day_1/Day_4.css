@@ -26,22 +26,46 @@
     right: 10px;
 }
 .image-container{
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background-color: black;
 }
 .image-container img{
-    /* height: 90px; */
+    height: 100px;
+    
     position: absolute;
     /* top: 55px;
     left: 15px; */
-    object-fit: cover;
+    object-fit:fit
+    ;
 }
 .mix{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
 }
 .one{
-    background-color: red;
-    height: 10px;
+    background-color: red; 
+     border-left: 100px solid red;
+    border-bottom: 100px solid red;
+    border-right: 100px solid blue;
+    border-top: 100px solid blue;
+    display: inline-block;
+    border-radius: 100%;
+    /* position: fixed; */
+    left: 12px;
+    
+    
+    
+    }
+.two{
+    bottom: 30px;
+    left: 29px;
+    background-color: blue;
+    height: 30px;
+    width: 30px;
+    position:fixed;
+    /* top: 10px; */
+    border-top-right-radius: 100% ;
+    border-bottom-right-radius:100% ;
 }
