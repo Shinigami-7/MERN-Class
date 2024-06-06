@@ -75,6 +75,7 @@ body{
 .login-form{
     background-color: aliceblue;
     padding: 20px;
+    width: 300px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;

@@ -109,6 +109,9 @@ img{
 button{
     border: 0px;
 }
+button:hover{
+    cursor: pointer;
+}
 .submit-btn:hover{
     background-color: #0c4fff;
 }
