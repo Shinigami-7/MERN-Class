@@ -69,7 +69,8 @@
 }
 .main-img img{
     height: 200px;
-    object-fit: fit;
+    width: 200px;
+    object-fit: cover;
 }
 .size-part span{
     position: relative;
