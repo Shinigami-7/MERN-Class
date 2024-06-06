@@ -1,12 +1,21 @@
+*{
+    font-family: "roboto";
+}
 .main-content{
     display: flex;
     flex-direction: column;
-    /* margin: 20px; */
+    margin: 0px;
     padding-top: 80px;
     height: 100vh;
     align-items: center;
     gap: 10px;
     background-color:#0f6efc;
+}
+#logo{
+    height: 70px;
+    display: flex;
+    align-items: start;
+    justify-content: left;
 }
 .content{
     background-color:white;
@@ -50,13 +59,29 @@
     font-size: 15px;
     
 }
-.link{
+.new-acc{
     display: flex;
     /* align-items: center; */
     justify-content:right;
-    gap: 15px;
     color:gray;
     margin-top: 10px;
+}
+.new-acc:hover{
+    color: darkgray;
+}
+.forgot-pass{
+    display: flex;
+    
+    color:gray;
+    margin-top: 10px;
+}
+.forgot-pass:hover{
+    color: darkgray;
+}
+.links{
+    display: flex;
+    justify-content:right;
+    gap: 15px;
 }
 .continue-btn{
     display: flex;

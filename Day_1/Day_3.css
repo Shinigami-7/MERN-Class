@@ -3,14 +3,18 @@
 } */
 button{
     color: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:navy;
     padding: 10px;
     border: 0px;
     font-size: 20px;
     border-radius: 20px;
     height: 40px;
-    width: 100px;
+    width: auto;
     cursor: pointer;
+    box-shadow: 2px 2px 2px 2px black ;
 }
 button:hover{
     background-color: blue;
@@ -92,4 +96,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.forgot-pass{
+    color: gray;
+    text-decoration: underline;
 }
