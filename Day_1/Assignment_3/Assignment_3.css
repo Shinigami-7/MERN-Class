@@ -24,10 +24,12 @@
     padding-left: 0%;
     justify-content: flex-start;
     
+    
 }
 .input{
     height: 40px;
     border-radius: 5px;
+    border: 1px solid black;
 }
 .checkbox-area{
     display: flex;
@@ -106,4 +108,16 @@ img{
 }
 button{
     border: 0px;
+}
+.submit-btn:hover{
+    background-color: #0c4fff;
+}
+.google-btn:hover{
+    background-color: darkred;
+}
+.facebook-btn:hover {
+    background-color: #0c4fff;
+}
+.twiter-btn:hover{
+    background-color: #0fb3ff;
 }
