@@ -1,0 +1,76 @@
+:root{
+    --bg-color-primary:rgb(106, 153, 85);
+}
+.main-container{
+    width: 200px;
+    height: 200px;
+    background-color: var(--bg-color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    /* animation-name: shinigami;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; */
+}
+/* @keyframes shinigami{
+    from{
+        background-color: chocolate;
+        
+        transform: rotate(0deg);
+        }
+    to{
+        background-color: rgb(21, 241, 183);
+        transform: rotate(90deg);
+        border-radius: 100%
+        }
+}
+p{
+    color: blanchedalmond;
+    animation-name: shinigami1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 10;
+}
+@keyframes shinigami1{
+    from{
+        background-color: chocolate;
+        transform: rotate(0deg);
+        }
+    to{
+        background-color: rgb(21, 241, 183);
+        transform: rotate(-90deg);
+        border-radius: 100%
+        }
+} */
+/* p:hover{
+    transform: scale(4) translateX(20px) translateY(-20px) rotate(90deg);
+    transition: 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    color: aqua;
+} */
+ div{
+
+ }
+.top{
+    height: 15px;
+    width: 50px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    gap: 5px;
+bottom: 5px;
+    }
+    .golo{
+        height: 5px;
+        width: 5px;
+        position: relative;
+        background-color: rgb(4, 4, 4);
+        border-radius: 100%;
+        
+}

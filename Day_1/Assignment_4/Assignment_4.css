@@ -1,11 +1,12 @@
 *{
     font-family: roboto;
 }
+
 .main-container{
     padding: 10px;
     display: flex;
     justify-content: center;
-    
+    margin: 0%;
     background-color: bisque;
     
 }
@@ -13,7 +14,7 @@
     border-radius: 5px;
     background-color: white;
     width: 250px;
-    height: 100vh;
+    height: 120vh;
     
 }
 .top-content{
@@ -30,12 +31,13 @@
 }
 .favourate{
     position: relative;
-    left: 185px;
+    left: 170px;
     top: 8px;
 }
+
 .dot{
     position: relative;
-    left: 190px;
+    left: 180px;
     top: 8px; 
 }
 #dress-title{
@@ -54,23 +56,24 @@
 .review-text{
     font-size: 8px;
     color: gray;
+    position: relative;
+    top: 2px;
     
 }
 .main-img {
-    height: 200px;
-    width: 200px;
-    /* margin: 30px; */
-    margin-top: 0px;
+    height: calc(250-30);
+    width: calc(250-30);
+    margin: 10px;
     background-color: #c5c5c7;
     position: relative;
     bottom: 10px;
-    left: 20px;
+    /* left: 20px; */
     border-radius: 10px;
 }
 .main-img img{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-fit:100% 0%;
 }
 .size-part span{
     position: relative;
@@ -104,6 +107,11 @@
     border-radius: 5px;
     color: gray;
 }
+.size:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
 .color-part span{
     position: relative;
     left: 20px;
@@ -128,29 +136,56 @@
     width: 20px;
     border-radius: 5px;
 }
+.color-item:hover{
+    cursor: pointer;
+}
 .color1{
     
     background-color: #e9af97;
+}
+.color1:hover{
+    
+    background-color: #c38f79;
 }
 .color2{
     
     background-color: #a3bcea;
 }
+.color2:hover{
+    
+    background-color: #7b94c4;
+}
 .color3{
    
     background-color: #d6b0e9;
+}
+.color3:hover{
+   
+    background-color: #7b4e91;
 }
 .color4{
     
     background-color: #eba3ae;
 }
+.color4:hover{
+    
+    background-color: #c27d87;
+}
 .color5{
     
     background-color: #89bbc8;
 }
+.color5:hover{
+    
+    background-color: #6e99a3;
+}
 .color6{
     
     background-color: #9edac0;
+}
+.color6:hover{
+    
+    background-color: #7db59d;
 }
 .price{
     font-weight: bold;
@@ -162,7 +197,7 @@
 .price button{
     font-size: 12px;
     position: relative;
-    left: 85px;
+    left: 75px;
     color: white;
     padding: 5px;
     padding-left: 10px;

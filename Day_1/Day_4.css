@@ -46,7 +46,7 @@
 }
 .one{
     background-color: red; 
-     border-left: 100px solid red;
+     border-left: 100px solid rgb(255, 0, 0);
     border-bottom: 100px solid red;
     border-right: 100px solid blue;
     border-top: 100px solid blue;
@@ -54,7 +54,7 @@
     border-radius: 100%;
     /* position: fixed; */
     left: 12px;
-    
+    rotate: 45deg;
     
     
     }
