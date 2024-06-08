@@ -162,15 +162,11 @@
     border-bottom: 15px solid rgb(0, 0, 0);
     border-right: 15px solid #6c7276;
     border-top: 15px solid #6c7276;
-    display: inline-block;
+    display: inline;
     border-radius: 100%;
-    position: relative;
-    left: 5px;
     rotate: 45deg;
 }
-.grad2-cov{
-    
-}
+
 .grad2{
     border-left: 15px solid #2a345a;
     border-bottom: 15px solid #2a345a;
@@ -178,12 +174,8 @@
     border-top: 15px solid #c28051;
     display: inline-block;
     border-radius: 100%;
-    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 5px;
-    rotate: 45deg;
+   rotate: 45deg;
 }
 .grad3{
     border-left: 15px solid #2f345b;
@@ -192,8 +184,6 @@
     border-top: 15px solid #d00073;
     display: inline-block;
     border-radius: 100%;
-    position: relative;
-    left: 5px;
     rotate: 45deg;
 }
 .grad4{
@@ -203,8 +193,6 @@
     border-top: 15px solid #c28352;
     display: inline-block;
     border-radius: 100%;
-    position: relative;
-    left: 5px;
     rotate: 45deg;
 }
 .desc{
