@@ -1,0 +1,271 @@
+*{
+    font-family: roboto;
+}
+
+.main-container{
+    border-radius: 40px;
+    border: 8px solid black;
+    
+    height: 159.9mm;
+    width: 76.7mm;
+    border-radius: 40px; 
+    background-color: #2a345a;
+    
+    /* display: flex; */
+}
+.content{
+    border-radius: 40px;
+    height: 100%;
+    background-color: #f4f5f9;
+}   
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+    gap: 30px;
+    
+}
+.time{
+    position: relative;
+    left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.floating-icon{
+    background-color: black;
+    border: 1px solid black;
+    height: 20px;
+    width: 80px;
+    border-radius: 40px;
+    position: relative;
+    left: 10px;
+}
+.signal{
+    display: flex;
+    gap: 5px;
+    /* position: absolute;
+    right: 15px;
+    top: 3px; */
+}
+.signal img{
+    height: 15px;
+}
+.middle-part{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.btn img{
+    height: 15px;
+}
+.btn-1{
+    display: flex;
+    position: absolute;
+    right: 22px;
+    gap: 10px;
+}
+.btn-1 img{
+    height: 15px;
+    position: relative;
+    right: 10px;
+}
+.earphone-img{
+    height: 290px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: 10px;
+}
+.earphone-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fit;
+    
+}
+
+.scroll {
+    background-color: lightgray;
+    height: 12px;
+    width: 60px;
+    border-radius: 100px;
+    position: relative;
+    left: 120px;
+    bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.scroll div{
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+}
+.scroll-next{
+    
+    background-color: #babbc1;
+    
+}
+.first-scroll {
+    background-color: black;
+}
+.description{
+    background-color: white;
+    height: 280px;
+    border-radius: 40px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.dec{
+    position: relative;
+    top: 20px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.price{
+    font-weight: bold;
+    font-size: 12px;
+}
+.product-name{
+    font-weight: bold;
+}
+.p-name{
+    font-size: 22px;
+}
+.color{
+    font-size: 11px;
+}
+.color-a{
+    color: gray;
+}
+.clr{
+    font-weight: bold;
+}
+.grad{
+    display: flex;
+    gap: 15px;
+}
+.grad1{
+    border-left: 15px solid rgb(0, 0, 0);
+    border-bottom: 15px solid rgb(0, 0, 0);
+    border-right: 15px solid #6c7276;
+    border-top: 15px solid #6c7276;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    left: 5px;
+    rotate: 45deg;
+}
+.grad2-cov{
+    
+}
+.grad2{
+    border-left: 15px solid #2a345a;
+    border-bottom: 15px solid #2a345a;
+    border-right: 15px solid #c28051;
+    border-top: 15px solid #c28051;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 5px;
+    rotate: 45deg;
+}
+.grad3{
+    border-left: 15px solid #2f345b;
+    border-bottom: 15px solid #2f345b;
+    border-right: 15px solid #d00073;
+    border-top: 15px solid #d00073;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    left: 5px;
+    rotate: 45deg;
+}
+.grad4{
+    border-left: 15px solid #c8c8cf;
+    border-bottom: 15px solid #c8c8cf;
+    border-right: 15px solid #c28352;
+    border-top: 15px solid #c28352;
+    display: inline-block;
+    border-radius: 100%;
+    position: relative;
+    left: 5px;
+    rotate: 45deg;
+}
+.desc{
+    font-size: 11px;
+    margin-right: 30px;
+}
+.quality{
+    font-size: 11px;
+    font-weight: bold;
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    position: relative;
+    width: 300px;
+    right: 25px;
+    bottom: 10px;
+}
+.bottom-icon{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.shop button{
+    background-color: #0046fe;
+    border-radius: 9px;
+    color:white;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    bottom:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 0px;
+}
+.shop img{
+    height: 20px;
+    width: 20px;
+}
+.comment button{
+    height:30px ;
+    width:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    border-radius: 6px;
+    border: 0px;
+}
+
+.bottom-icon img{
+    height: 20px;
+    width: 20px;
+}
+.nav-bar{
+    height: 5px;
+    background-color: #222b34;
+    width: 90px;
+    border-radius: 50px;
+    position: relative;
+    left: 70px;
+}
