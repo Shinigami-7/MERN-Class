@@ -155,18 +155,34 @@
 }
 .grad{
     display: flex;
-    gap: 15px;
+    flex-direction: row;
+    gap: 10px;
 }
 .grad1{
     border-left: 15px solid rgb(0, 0, 0);
     border-bottom: 15px solid rgb(0, 0, 0);
     border-right: 15px solid #6c7276;
     border-top: 15px solid #6c7276;
-    display: inline;
+    display: inline-block;
     border-radius: 100%;
     rotate: 45deg;
 }
-
+.grad2-cov{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    border: 2px solid #283efe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.no-grad{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .grad2{
     border-left: 15px solid #2a345a;
     border-bottom: 15px solid #2a345a;
@@ -174,7 +190,7 @@
     border-top: 15px solid #c28051;
     display: inline-block;
     border-radius: 100%;
-    display: flex;
+    /* display: flex; */
    rotate: 45deg;
 }
 .grad3{
