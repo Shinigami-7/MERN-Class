@@ -265,11 +265,18 @@
     height: 20px;
     width: 20px;
 }
+.nav-width{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .nav-bar{
     height: 5px;
     background-color: #222b34;
     width: 90px;
     border-radius: 50px;
     position: relative;
-    left: 70px;
+    right: 20px;
+    bottom: 7px;
 }
