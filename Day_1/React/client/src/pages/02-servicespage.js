@@ -1,6 +1,6 @@
 function Services(){
     return(
-        <div>
+        <div class="nav">
             Services
         </div>
     )

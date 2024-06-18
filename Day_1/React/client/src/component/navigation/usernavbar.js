@@ -5,13 +5,13 @@ const UserNavBar =() =>{
     return(
         <>
             <div onClick={()=> navigate("/")}>
-                home
+                Home
             </div>
             <div onClick={()=> navigate("/services")}>
-                services
+                Services
             </div>
             <div onClick={()=> navigate("/contact-us")}>
-                contact-us
+                Contact-us
             </div>
         
         </>

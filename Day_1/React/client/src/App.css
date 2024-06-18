@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+div{
+  color:white;
+  background-color: blue;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  gap: 10px;
+}
+.nav{
+  display: flex;
+  /* flex-direction: column; */
+  position: relative;
+  top: 25px;
+  right: 120px;
+}

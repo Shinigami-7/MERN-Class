@@ -1,6 +1,6 @@
 function contactus(){
     return(
-        <div>
+        <div class="nav">
             Contact Us
         </div>
     )

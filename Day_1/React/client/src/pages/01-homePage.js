@@ -1,7 +1,7 @@
 function Home(){
 
     return (
-        <div> HOME PAGE</div>
+        <div class="nav"> HOME PAGE</div>
     )
 }
 
