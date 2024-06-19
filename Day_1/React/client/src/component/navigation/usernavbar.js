@@ -4,7 +4,9 @@ const UserNavBar =() =>{
     const navigate = useNavigate()
     return(
         <>
-            <div onClick={()=> navigate("/")}>
+            <div>
+                <h2>LOGO</h2>
+           <div onClick={()=> navigate("/")}>
                 Home
             </div>
             <div onClick={()=> navigate("/services")}>
@@ -12,6 +14,7 @@ const UserNavBar =() =>{
             </div>
             <div onClick={()=> navigate("/contact-us")}>
                 Contact-us
+            </div>
             </div>
         
         </>
